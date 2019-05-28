@@ -1,3 +1,14 @@
+### 3.0.1 (28 May 2019) ###
+
+Highlights
+  * New character attributes superscript, subscript, shadowed, overstrike.
+  * DEC VT420 screen control features.
+  * Fully VT100-compatible, including VT52 mode (with graphics).
+  * Up to 6 key modifiers, including Meta (Win key) and configurable Super and Hyper keys.
+  * Bell sounds in package.
+  * Various window and clipboard handling optimisations and extensions.
+  * User-definable function extensions.
+
 Terminal features
   * New character attributes overstrike and (as inspired by existing terminfo capabilities) shadow, subscript, superscript:
     * SGR 8:7 overstrikes characters over preserved screen contents (28 clears).
@@ -39,6 +50,7 @@ Clipboard handling
   * Trim trailing spaces for HTML and HTML text copies (#878).
   * Select HTML detail level by setting of "Copy as HTML" alone (#878).
   * Specify "fixed pitch" for RTF format (~#878).
+  * New options CopyAsRTFFont, CopyAsRTFFontHeight (~#878).
 
 Configuration
   * Mintty packages include a selection of bell sounds (#711).
